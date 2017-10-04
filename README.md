@@ -7,7 +7,7 @@ Front-end boilerplate
 
 ## Getting Started
 ```
-$ https://github.com/AsyrafHussin/frontend-boilerplate.git <project-name>
+$ git clone https://github.com/AsyrafHussin/frontend-boilerplate.git <project-name>
 $ cd <project-name>
 $ rm -f .git && rm -rf README.md
 $ npm install
