@@ -9,7 +9,7 @@ Front-end boilerplate
 ```
 $ git clone https://github.com/AsyrafHussin/frontend-boilerplate.git <project-name>
 $ cd <project-name>
-$ rm -f .git && rm -rf README.md
+$ rm -rf ./.git && rm -rf ./README.md
 $ npm install
 ```
 
