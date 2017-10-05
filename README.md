@@ -36,5 +36,15 @@ $ http-server ./ -p 8000
 $ npm run serve
 ```
 
+## Available Command
+List all available command
+
+| Command            | Description                                     |
+| ------------------ |:-----------------------------------------------:|
+| npm run dev        | Run all Mix tasks                               |
+| npm run watch      | Watch watch all files for changes and recompile |
+| npm run production | Run all Mix tasks and minify output             |
+| npm run serve      | Serving project at http://127.0.0.1:8000        |
+
 ## Contributing
 If you spot any errors, typos or missing information, please submit a pull request.
