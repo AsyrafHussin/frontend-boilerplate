@@ -11,8 +11,7 @@ let mix = require('laravel-mix');
  |
  */
 
- mix.js('src/js/app.js', 'js')    
-     .extract(['jquery', 'bootstrap-sass'])
+ mix.js('src/js/app.js', 'js')   
      .sass('src/sass/app.scss', 'css')
      .browserSync('127.0.0.1:8000');
 
