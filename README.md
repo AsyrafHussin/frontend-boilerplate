@@ -2,8 +2,8 @@
 Front-end boilerplate
 
 ## Contains
-* Boostrap 3.3.7
-* Font Awesome 4.7.0
+* [Boostrap 3.3.7](https://getbootstrap.com/docs/3.3/font)
+* [Font Awesome 4.7.0](http://fontawesome.io/icons)
 * [sass-boilerplate](https://github.com/AsyrafHussin/sass-boilerplate)
 * [Laravel Mix](https://github.com/JeffreyWay/laravel-mix)
 
