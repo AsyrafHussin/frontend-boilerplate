@@ -3,10 +3,11 @@ Front-end boilerplate
 
 ## Contains
 * [Boostrap 3](https://getbootstrap.com/docs/3.3/font)
+* [jQuery](https://jquery.com/)
 * [sass-boilerplate](https://github.com/AsyrafHussin/sass-boilerplate)
-* [Laravel Mix](https://github.com/JeffreyWay/laravel-mix)
 * [Font Awesome](http://fontawesome.io/icons)
 * [Material Design Icons](https://materialdesignicons.com)
+* [Laravel Mix](https://github.com/JeffreyWay/laravel-mix)
 
 ## Getting Started
 ```
