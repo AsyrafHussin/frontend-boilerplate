@@ -13,6 +13,7 @@ $ git clone https://github.com/AsyrafHussin/frontend-boilerplate.git <project-na
 $ cd <project-name>
 $ rm -rf ./.git && rm -rf ./README.md
 $ npm install
+$ npm run dev
 ```
 
 ## Serve Project
