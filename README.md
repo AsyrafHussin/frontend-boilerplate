@@ -26,7 +26,7 @@ $ npm install -g http-server
 
 * Serve
 ```
-$ http-server ./ -p 8000
+$ npm run serve
 ```
 
 ## Contributing
