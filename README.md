@@ -26,7 +26,12 @@ Using [http-server](https://www.npmjs.com/package/http-server)
 $ npm install -g http-server
 ```
 
-* Serve
+* Serve without npm
+```
+$ http-server ./ -p 8000
+```
+
+* Serve using npm
 ```
 $ npm run serve
 ```
