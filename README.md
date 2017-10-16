@@ -41,9 +41,11 @@ List all available command
 
 | Command            | Description                                     |
 | ------------------ |:-----------------------------------------------:|
-| npm run dev        | Run all Mix tasks                               |
+| npm run dev          Run all Mix tasks                               |
+| npm run development                                                  |
 | npm run watch      | Watch all files for changes and recompile       |
-| npm run production | Run all Mix tasks and minify output             |
+| npm run prod         Run all Mix tasks and minify output             |
+| npm run production                                                   |
 | npm run serve      | Serving project at http://127.0.0.1:8000        |
 
 ## Contributing
