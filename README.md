@@ -39,12 +39,13 @@ $ npm run serve
 ## Available Command
 List all available command
 
-| Command                                  | Description                                     |
-| ---------------------------------------- |:-----------------------------------------------:|
-| npm run dev <br/> npm run development    |      Run all Mix tasks                          |
-| npm run watch                            | Watch all files for changes and recompile       |
-| npm run prod <br/> npm run production    |     Run all Mix tasks and minify output         |
-| npm run serve                            | Serving project at http://127.0.0.1:8000        |
+| Command                                  | Description                                      |
+| ---------------------------------------- |:------------------------------------------------:|
+| npm run dev <br/> npm run development    |      Run all Mix tasks                           |
+| npm run watch                            | Watch all files for changes and recompile        |
+| npm run watch-poll                       | If Webpack isn't updating when your files change |
+| npm run prod <br/> npm run production    |     Run all Mix tasks and minify output          |
+| npm run serve                            | Serving project at http://127.0.0.1:8000         |
 
 ## Contributing
 If you spot any errors, typos or missing information, please submit a pull request.
