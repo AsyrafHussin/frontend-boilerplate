@@ -9,6 +9,15 @@
     }
 }
 
+// center using flexbox
+// body{
+//    @include center;
+// }
+@mixin center{
+    display: flex;
+    justify-content: center;
+}
+
 //  when using ::before and ::after
 //  div::after {
 //    @include pseudo;
