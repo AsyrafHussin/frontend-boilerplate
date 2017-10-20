@@ -18,6 +18,18 @@
     justify-content: center;
 }
 
+// full screen background
+// .star{
+//   @include full-screen;
+// }
+@mixin full-screen{
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  position:absolute;
+}
+
 //  when using ::before and ::after
 //  div::after {
 //    @include pseudo;
