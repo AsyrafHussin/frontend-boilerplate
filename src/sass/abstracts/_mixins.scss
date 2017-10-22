@@ -71,6 +71,16 @@
     @if $lh { line-height: $lh; }
 }
 
+// basic style for text
+// p{
+//   @include(16px,#fff,bold);
+// }
+@mixin basic-text($size, $colour, $weight){
+   font-size: $size;
+   color: $color;
+   font-weight: $weight;
+}
+
 // style input placeholder
 // input,  
 //textarea {  
