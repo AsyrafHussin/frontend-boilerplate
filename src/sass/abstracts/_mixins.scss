@@ -143,6 +143,25 @@
     }
 } 
 
+// breakpoint
+// .something {
+//    padding: 100px;
+//    @include break(mobile) {
+//        padding: 10px;
+//    }
+// }
+@mixin break($point) {
+   @if $point == desktop {
+     @media (min-width: 70em) { @content ; }
+  }
+  @else if $point == tablet {
+     @media (min-width: 768px) { @content ; }
+  }
+  @else if $point == mobile {
+     @media (max-width: 480px)  { @content ; }
+  }
+}
+
 // truncate text to be in a single straight line 
 // p{
 //    @include truncate(250px);
