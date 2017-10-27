@@ -155,7 +155,7 @@
      @media (min-width: 70em) { @content ; }
   }
   @else if $point == tablet {
-     @media (min-width: 768px) { @content ; }
+     @media (max-width: 768px) and (min-width: 481px) { @content ; }
   }
   @else if $point == mobile {
      @media (max-width: 480px)  { @content ; }
