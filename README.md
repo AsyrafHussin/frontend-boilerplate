@@ -2,7 +2,7 @@
 Front-end boilerplate
 
 ## Contains
-* [Bootstrap 3](https://getbootstrap.com/docs/3.3/font)
+* [Bootstrap 3](https://getbootstrap.com/docs/3.3)
 * [jQuery](https://jquery.com/)
 * [sass-boilerplate](https://github.com/AsyrafHussin/sass-boilerplate)
 * [Font Awesome](http://fontawesome.io/icons)
