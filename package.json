@@ -15,7 +15,7 @@
     "browser-sync-webpack-plugin": "^1.2.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2",
-    "laravel-mix": "^1.5.0",
+    "laravel-mix": "^2.0",
     "mdi": "^2.0.46",
     "cross-env": "^5.1.0",
     "autoprefixer": "^7.2.5"
