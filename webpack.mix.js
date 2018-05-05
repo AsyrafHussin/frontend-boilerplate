@@ -12,10 +12,21 @@ let mix = require('laravel-mix');
  */
 
  mix.js('src/js/app.js', 'js')
-     .sass('src/sass/app.scss', 'css').options({
-         postCss: [ 
-             require('autoprefixer') 
-         ]
+     .sass('src/sass/app.scss', 'css')
+     .options({
+          postCss: [ 
+              require('autoprefixer'),
+          ],
+          processCssUrls: false
      })
-     .browserSync('127.0.0.1:8000');
+     .browserSync({
+        proxy: '127.0.0.1:8000',
+        files: [
+          '*.html',
+          'css/*.css',
+          'js/*.js',
+        ],
+        open: true,
+        notify: false,
+     });    
 
