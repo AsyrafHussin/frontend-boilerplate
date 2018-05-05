@@ -16,6 +16,7 @@ let mix = require('laravel-mix');
      .options({
           postCss: [ 
               require('autoprefixer'),
+              require('cssnano'),
           ],
           processCssUrls: false
      })

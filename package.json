@@ -10,14 +10,15 @@
     "serve": "http-server ./ -p 8000"
   },
   "devDependencies": {
+    "autoprefixer": "^8.4.1",
     "bootstrap-sass": "^3.3.7",
     "browser-sync": "^2.24.4",
     "browser-sync-webpack-plugin": "^2.2.2",
+    "cross-env": "^5.1.0",
+    "cssnano": "^3.10.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "laravel-mix": "^2.0",
-    "mdi": "^2.2.43",
-    "cross-env": "^5.1.0",
-    "autoprefixer": "^8.4.1"
+    "mdi": "^2.2.43"
   }
 }
