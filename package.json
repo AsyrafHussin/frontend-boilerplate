@@ -1,24 +1,24 @@
 {
-  "scripts": {
-    "dev": "npm run development",
-    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch-poll": "npm run watch -- --watch-poll",
-    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "prod": "npm run production",
-    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "serve": "http-server ./ -p 8000"
-  },
-  "devDependencies": {
-    "autoprefixer": "^8.4.1",
-    "bootstrap-sass": "^3.3.7",
-    "browser-sync": "^2.24.4",
-    "browser-sync-webpack-plugin": "^2.2.2",
-    "cross-env": "^5.1.5",
-    "cssnano": "^3.10.0",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1",
-    "laravel-mix": "^2.0",
-    "mdi": "^2.2.43"
-  }
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "serve": "http-server ./ -p 8000"
+    },
+    "devDependencies": {
+        "autoprefixer": "^8.5.0",
+        "bootstrap-sass": "^3.3.7",
+        "browser-sync": "^2.24.4",
+        "browser-sync-webpack-plugin": "^2.2.2",
+        "cross-env": "^5.1.5",
+        "cssnano": "^3.10.0",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.3.1",
+        "laravel-mix": "^2.0",
+        "mdi": "^2.2.43"
+    }
 }
