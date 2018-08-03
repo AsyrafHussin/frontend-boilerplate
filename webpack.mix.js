@@ -16,11 +16,11 @@ let mix = require('laravel-mix');
     .js('src/js/app.js', 'js')
     .sass('src/sass/app.scss', 'css')
     .options({
-          postCss: [
-              require('autoprefixer'),
-              require('cssnano'),
-          ],
-          processCssUrls: false
+      postCss: [
+          require('autoprefixer'),
+          require('cssnano'),
+      ],
+      processCssUrls: false
     })
    .browserSync({
       proxy: '127.0.0.1:8000',
